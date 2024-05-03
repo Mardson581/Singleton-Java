@@ -40,6 +40,7 @@ public class Singleton {
 	* para evitar mudança repentina no valor das variáveis) e verifica-se se a instância é nula novamente (caso algum
 	* Thread tenha a instanciado do nada) e, se for nula, criamos a instância.
 	*
+	* @param data Dado usado para mostrar o thread-safe da classe em ação.
 	* @return Retorna a instância dessa classe.
 	*/
 	public static Singleton getInstance(String data) {
